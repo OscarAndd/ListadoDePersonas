@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">
+            Listado de Personas
+        </h1>
+    </header>
+    <main>
+        <div class="contenedorLista">
+            <ul class="listado" id="lista">
+                <li class="itemListado">
+                    <span class="nombre">Juan</span>
+                </li>
+                <li class="itemListado2">
+                    <span class="apellido">Perez</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contenedorNuevo">
+            <button class="btnAgregar" onclick="agregarNombre()">+</button>
+            <br>
+            <input type="text" name="nombre" id="idNombre" class="inputNombre" placeholder="Nombre">
+            <input type="text" name="apellido" id="idApellido" class="inputApellido" placeholder="Apellido">
+        </div>
+    </main>
+    <script src='/Funcionalidad/funcionalidad.js'></script> 
+</body>
+
+</html>

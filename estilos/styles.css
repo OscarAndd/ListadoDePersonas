@@ -1,0 +1,51 @@
+body{
+    background-color: #1e7fa5;
+}
+.titulo{
+    background-color: #523dcc;
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin: 8% auto;
+    padding: 1%;
+    border-radius: 4%;
+    font-size: 3vw;
+}
+.contenedorLista{
+    border: solid 1px black;
+    border-radius: 3%;
+    margin: auto;
+    width: 60%;
+    background-color: azure;
+    min-height: max-content;
+    font-family: cursive;
+    font-size:  2vw;
+}
+.contenedorNuevo{
+    background-color: azure;
+    margin: 8% auto;
+    width: 60%;
+    min-height: 100px;
+}
+.btnAgregar{
+    background-color: #523dcc;
+    border-radius: 100%;
+    border: none;
+    font-size: 200%;
+    color: white;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin-left: 47%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.inputNombre, .inputApellido{
+    width: 27.5vw;
+    text-align: center;
+    border: none;
+    font-size: 1.3vw;
+    margin-bottom: 2%;
+    text-transform: capitalize;
+   
+}
